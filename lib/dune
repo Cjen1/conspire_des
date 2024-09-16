@@ -1,0 +1,5 @@
+(library
+  (name lib)
+  (inline_tests)
+  (libraries base core core_unix fmt)
+  (preprocess (pps ppx_jane)))

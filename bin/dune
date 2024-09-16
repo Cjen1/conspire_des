@@ -1,0 +1,4 @@
+(executables
+  (names spire conspire)
+  (libraries lib cmdliner)
+  (preprocess (pps ppx_jane)))
